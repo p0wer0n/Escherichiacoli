@@ -1,4 +1,4 @@
-Escherichiacoli
+PushIRCBouncer
 ===============
 
 NodeJS IRC push notifications.
