@@ -35,9 +35,9 @@ for name, network of config.networks
 
     for trigger in config.triggers
       if message.toLowerCase().indexOf(trigger.toLowerCase()) > -1
+      	
         data =
           channel: to
-          network: @friendlyName
           username: from
           message: message
 
